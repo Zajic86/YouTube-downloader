@@ -1,0 +1,5 @@
+# Ignore audio folder
+/yt-down/audio/
+
+# Ignore video folder
+/yt-down/video/
