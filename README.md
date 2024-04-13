@@ -1,7 +1,7 @@
 # Python YouTube downloader
 A simple terminal downloader that allows you to download a video or just an audio track from YouTube. The audio track is saved in the highest available quality to mp3.
 
-## Libraries used:
+## Libraries used
 - moviePy
 - pyTube
 
@@ -9,9 +9,12 @@ A simple terminal downloader that allows you to download a video or just an audi
 pip install pytube moviepy
 ```
 
-clone repo
+## Installation
+
 ```bash
 git clone https://github.com/Zajic86/YouTube-downloader.git
+cd YouTube-downloader/yt-down
+python yt-down.py
 ```
+or just copy/paste code from yt-down/yt-down.py
 
-run yt-down.py
