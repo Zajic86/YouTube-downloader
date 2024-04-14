@@ -34,3 +34,5 @@ sudo apt install mpg123
 - Processing audio: The audio is downloaded in the highest possible quality in .webm format to the **/audio** folder, then it is converted to mp3 format and the original format is deleted
 - Output message
 - Query for next download (y/n)
+
+**Note:** keep in mind that the videos may be licensed and it may be illegal to download them. Download only your videos or freely licensed ones. I take no responsibility for using this script for illegal purposes
