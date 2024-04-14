@@ -2,14 +2,13 @@
 A simple terminal **downloader** that allows you to download a **video** or just an **audio track** from **YouTube**. The audio track is saved in the **highest** available **quality to mp3**.
 
 ## Libraries imported
-- moviePy
-- pyTube
-- colorama
+- pydub
+- pytube
 
 ```bash
-pip install pytube moviepy colorama
+pip install pytube pydub
 ```
-or clone repo and install **requirements.txt** (complete list of used libs)
+or clone repo and install **requirements.txt**
 
 ## Installation
 
@@ -22,7 +21,7 @@ python yt-down.py
 ```
 or just copy/paste code from yt-down/yt-down.py and install libraries.
 
-If you have a problem with decoding to mp3 (Ubuntu) try install **mpg123**:
+If you have a problem with decoding to mp3 (Ubuntu) try install or update **mpg123**:
 ```bash
 sudo apt install mpg123
 ```
