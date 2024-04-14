@@ -22,6 +22,7 @@ def convert_to_mp3(input_path):
     """
     Converts the input audio file to MP3 format by pydub library
     """
+    print("...Converting to mp3...")
     audio = AudioSegment.from_file(input_path)
     output_path = input_path[:-5] + ".mp3"
     audio.export(output_path, format="mp3")
@@ -32,10 +33,14 @@ def convert_to_mp3(input_path):
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.realpath(__file__))
     while True:
-        input_url = input("Enter the YouTube video URL: ")
+        print("")
+        print("__________________________________")
+        print("  YOUTUBE AUDIO/VIDEO DOWNLOADER  ")
+        print("")
+        input_url = input("? YouTube video URL: ")
         if "youtube" in input_url:
-            choice = input("Complete video (1) or just the audio (2)? Enter 1 or 2: ")
-            print("Processing...")
+            choice = input("? Complete video (1) or just the audio (2)? Enter 1 or 2: ")
+            print("...Processing...")
             if choice == "1":
                 video = YouTube(input_url)
                 stream = video.streams.get_highest_resolution()
